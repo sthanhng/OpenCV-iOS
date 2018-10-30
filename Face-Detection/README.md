@@ -51,3 +51,23 @@ OpenCV uses Haar Cascade Classifier to detect face from `MAT Image` by locating 
     const int flags = 0;
     const cv::Size minimumSize(300, 300);
 ```
+
+* At the end, you need to call `detectMultiScale` function of Cascade classifier which will return the detected faces from the given image.
+
+```objective-c
+    classifier.detectMultiScale(grayMat, detections, scalingFactor, minNeightbors, flags, minimumSize);
+```
+
+The complete code you can find [here](https://github.com/sthanhng/OpenCV-iOS/tree/master/Face-Detection/FaceDetection).
+
+## Examples
+
+![Screenshot](assets/example1.jpg)
+
+![Screenshot](assets/example2.jpg)
+
+## References
+
+* [iOS — OpenCV and Swift](https://medium.com/@borisohayon/ios-opencv-and-swift-1ee3e3a5735b)
+* [OpenCV with Swift - step by step](https://medium.com/@yiweini/opencv-with-swift-step-by-step-c3cc1d1ee5f1)
+* [OpenCV iOS](https://docs.opencv.org/3.4/d3/dc9/tutorial_table_of_content_ios.html)
