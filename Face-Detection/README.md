@@ -77,6 +77,10 @@ The complete code you can find [here](https://github.com/sthanhng/OpenCV-iOS/tre
 
 ![Imgur](assets/example1_resized.jpeg) ![Imgur](assets/example2_resized.jpeg)
 
+## Face detection using Core Image
+
+* You can find more details **Face detection using Core Image** [here](https://github.com/sthanhng/OpenCV-iOS/tree/master/Face-Detection/FaceDetectionCoreImage).
+
 ## References
 
 * [iOS — OpenCV and Swift](https://medium.com/@borisohayon/ios-opencv-and-swift-1ee3e3a5735b)
