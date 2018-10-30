@@ -62,9 +62,7 @@ The complete code you can find [here](https://github.com/sthanhng/OpenCV-iOS/tre
 
 ## Examples
 
-![Screenshot](assets/example1.jpg)
-
-![Screenshot](assets/example2.jpg)
+![Imgur](assets/example1_resized.jpeg) ![Imgur](assets/example2_resized.jpeg)
 
 ## References
 
