@@ -10,7 +10,20 @@ In this tutorial, we tried to compare performance of the most popular frameworks
 
 ## [OpenCV](https://opencv.org/about.html)
 
-OpenCV is an open source Computer Vision and Machine Learning library.
+OpenCV is an open source Computer Vision and Machine Learning library. In general, OpenCV is an infrastructure for object detection that can be trained to detect any objects, including faces. Its toolkit contains thousands of optimized algorithms to serve various purposes.
+
+Here are three ways to add OpenCV to your own iOS project:
+
+* Using CocoaPods:
+
+```bash
+pod "OpenCV"
+```
+
+* Get and add an official iOS framework release to your project
+
+* Using sources from [GitHub](https://github.com/opencv/opencv) and follow the [instruction](https://docs.opencv.org/2.4/doc/tutorials/introduction/ios_install/ios_install.html#ios-installation) to build your own library
+
 
 ## [Core Image](https://developer.apple.com/)
 
