@@ -1,6 +1,6 @@
 # Face detection with OpenCV, Core Image, and Vision
 
-* Create data: 2018-10-30
+* Create date: 2018-10-30
 
 ## Getting started
 
