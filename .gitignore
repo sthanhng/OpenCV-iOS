@@ -28,3 +28,7 @@ Temporary Items
 
 ##
 .idea/
+
+## OpenCV framework
+opencv2.framework/
+
