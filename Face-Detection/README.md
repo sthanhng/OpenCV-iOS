@@ -35,3 +35,19 @@ OpenCV uses Haar Cascade Classifier to detect face from `MAT Image` by locating 
 
 * Create the Haar Cascade classifier by loading the `haarcascade_frontalface_alt2.xml` file.
 
+```objective-c
+    cv::CascadeClassifier classifier;
+    const NSString* cascadePath = [[NSBundle mainBundle] pathForResource:@"haarcascade_frontalface_alt2" ofType:@"xml"];
+    classifier.load([cascadePath UTF8String]);
+```
+
+* Initialize variables for classifier
+
+```objective-c
+    std::vector<cv::Rect> detections;
+    
+    const double scalingFactor = 1.1;
+    const int minNeightbors = 2;
+    const int flags = 0;
+    const cv::Size minimumSize(300, 300);
+```
