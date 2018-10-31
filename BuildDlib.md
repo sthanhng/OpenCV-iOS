@@ -56,7 +56,7 @@ DLIB_USE_BLAS
 DLIB_USE_LAPACK
 ```
 
-Add the dependences library
+Add the dependencies library
 
 * Acceletrate.framework
 * AssetsLibrary.framework
