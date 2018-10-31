@@ -33,3 +33,33 @@ cmake --build . --config Realease
 An Xcode project will be created under `build/dlib_build`. Now that we have Dlib built and setup lets start adding it to our iOS project.
 
 ## Adding Dlib to your iOS project
+
+1. In the root of Xcode project create a folder called `lib`.
+
+2. Copy the `libdlib.a` file from the dlib Xcode project and paste it into the `lib` folder.
+
+3. Copy the `dlib` folder from the `dlib-19.16` folder and paste it into the `lib` folder.
+
+4. Drag the `libdlib.a` file from the `lib` folder and drop it into your Xcode project.
+
+## Configuration
+
+In your Xcode project open `Build Settings` tab and add the following under `Library Search Paths`: `$(PROJECT_DIR)/lib`. This will let Xcode know where the Dlib files are.
+
+Next you need to add some preprocessor macros to help Xcode compile the Dlib files properly.
+
+```
+DLIB_NO_GUI_SUPPORT
+DLIB_JPEG_SUPPORT
+NDEBUG
+DLIB_USE_BLAS
+DLIB_USE_LAPACK
+```
+
+Add the dependences library
+
+* Acceletrate.framework
+* AssetsLibrary.framework
+* AVFoundation.framework
+
+## References
