@@ -62,4 +62,8 @@ Add the dependencies library
 * AssetsLibrary.framework
 * AVFoundation.framework
 
+## Examples
+
+An example how to build Dlib and using it to detect facial landmarks on iOS can be found [here](https://github.com/sthanhng/OpenCV-iOS/tree/master/DlibDemo).
+
 ## References
