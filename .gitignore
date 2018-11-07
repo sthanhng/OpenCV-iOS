@@ -32,3 +32,8 @@ Temporary Items
 ## OpenCV framework
 opencv2.framework/
 
+## DLIB framework
+dlib-19.16.tar.bz2
+dlib-19.16/
+DlibDemo/lib/*.dat
+DlibDemo/lib/dlib/

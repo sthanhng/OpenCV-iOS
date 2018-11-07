@@ -49,6 +49,9 @@ A set of character glyphs and layout information for drawing text.
 
 >**Note**: For more details about Core Graphics framework you can find out [here](#ref).
 
+## Example list
+
+
 ## <a id="ref"></a>Reference
 
 * https://developer.apple.com/documentation/coregraphics
