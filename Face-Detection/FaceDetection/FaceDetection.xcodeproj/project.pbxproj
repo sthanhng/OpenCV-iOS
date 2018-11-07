@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6769DDF721893F87008C70CB /* TakePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6769DDF621893F87008C70CB /* TakePhoto.swift */; };
 		676C8E6021880E48001FBF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C8E5F21880E48001FBF40 /* AppDelegate.swift */; };
 		676C8E6221880E48001FBF40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676C8E6121880E48001FBF40 /* ViewController.swift */; };
 		676C8E6521880E48001FBF40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676C8E6321880E48001FBF40 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6769DDF621893F87008C70CB /* TakePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TakePhoto.swift; path = ../../../TakePhoto.swift; sourceTree = "<group>"; };
 		676C8E5C21880E48001FBF40 /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676C8E5F21880E48001FBF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		676C8E6121880E48001FBF40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				676C8E7121880E7B001FBF40 /* opencv2.framework */,
 				676C8E5F21880E48001FBF40 /* AppDelegate.swift */,
 				676C8E6121880E48001FBF40 /* ViewController.swift */,
+				6769DDF621893F87008C70CB /* TakePhoto.swift */,
 				676C8E6321880E48001FBF40 /* Main.storyboard */,
 				676C8E6621880E4A001FBF40 /* Assets.xcassets */,
 				676C8E6821880E4A001FBF40 /* LaunchScreen.storyboard */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				676C8E6221880E48001FBF40 /* ViewController.swift in Sources */,
+				6769DDF721893F87008C70CB /* TakePhoto.swift in Sources */,
 				676C8E6021880E48001FBF40 /* AppDelegate.swift in Sources */,
 				676C8E8321880EC6001FBF40 /* OpenCVWrapper.mm in Sources */,
 			);
